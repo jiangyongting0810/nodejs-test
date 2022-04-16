@@ -34,14 +34,14 @@ var server = http.createServer(function(request, response){
         <title>Document</title>
     </head>
     <body>
-        你好啊很高兴认识腻
+        <h1>你好啊很高兴认识腻</h1>
     </body>
     </html>`)
     response.end()
   } else if(path === '/x'){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/css;charset=utf-8')
-    response.write(`body{color: red;}`)
+    response.write(`h1{color: red}`)
     response.end()
   } else {
     response.statusCode = 404
