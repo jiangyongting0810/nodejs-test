@@ -35,7 +35,7 @@ var server = http.createServer(function(request, response){
         <title>Document</title>
     </head>
     <body>
-        <h1>你好啊很高兴认识腻</h1>
+        <h1>难么</h1>
     </body>
     </html>`)
     response.end()
